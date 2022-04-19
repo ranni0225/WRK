@@ -1,0 +1,34 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32407.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WindowsResearchKernel", "WRK.vcxproj", "{7B312FB7-F0A3-41FE-89D1-6100FDC35009}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FA0740E3-75F9-42BC-82E8-9DC20B118F91}"
+	ProjectSection(SolutionItems) = preProject
+		BUILD.BAT = BUILD.BAT
+		CLEAN.BAT = CLEAN.BAT
+		PREBUILD.PY = PREBUILD.PY
+		README.MD = README.MD
+		REBUILD.BAT = REBUILD.BAT
+		SETENV.BAT = SETENV.BAT
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		amd64|Win32 = amd64|Win32
+		x86|Win32 = x86|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7B312FB7-F0A3-41FE-89D1-6100FDC35009}.amd64|Win32.ActiveCfg = amd64|Win32
+		{7B312FB7-F0A3-41FE-89D1-6100FDC35009}.amd64|Win32.Build.0 = amd64|Win32
+		{7B312FB7-F0A3-41FE-89D1-6100FDC35009}.x86|Win32.ActiveCfg = x86|Win32
+		{7B312FB7-F0A3-41FE-89D1-6100FDC35009}.x86|Win32.Build.0 = x86|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DAECF607-DD48-43FE-AD85-24B90DC65049}
+	EndGlobalSection
+EndGlobal

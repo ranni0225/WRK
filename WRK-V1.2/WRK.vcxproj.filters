@@ -1,0 +1,2039 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="base">
+      <UniqueIdentifier>{cd9bb38d-310b-471a-af84-26d31868e05a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\ntos">
+      <UniqueIdentifier>{524512c0-ea00-4612-97aa-64d2f1771274}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\ntos\cache">
+      <UniqueIdentifier>{efc6a0b5-6f78-4794-ac41-55951b32cd48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\ntos\config">
+      <UniqueIdentifier>{1927ceb4-1bf1-4dac-a9b4-fec074dbf310}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\ntos\dbgk">
+      <UniqueIdentifier>{d985e260-132a-4250-98bf-33c0b4679f80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\ntos\ex">
+      <UniqueIdentifier>{ac2396d5-ddbb-49b1-9e33-f26d186ddc53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\ntos\ex\amd64">
+      <UniqueIdentifier>{1777ba65-744c-4439-b12e-c35ca3cbb68f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\ntos\ex\i386">
+      <UniqueIdentifier>{5efec8fc-fda6-4dde-8389-c82a14083f39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\ntos\fsrtl">
+      <UniqueIdentifier>{dc459f64-a33d-41ee-a0b4-c0c577db739e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\ntos\fstub">
+      <UniqueIdentifier>{e1627d22-d624-40d9-b064-8cc5edaea2a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\ntos\inc">
+      <UniqueIdentifier>{d134dbd9-bd7e-40c5-84b6-cb2b95935a17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\ntos\init">
+      <UniqueIdentifier>{16a7f928-8b01-4303-9429-4e5991377fbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\ntos\io">
+      <UniqueIdentifier>{948afad2-2d4b-48b9-a892-eb4423766ab8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\ntos\io\iomgr">
+      <UniqueIdentifier>{ee72083c-28f4-4081-9fbc-ecc1fb81025c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\ntos\io\PNPMGR">
+      <UniqueIdentifier>{f8875dd7-b148-466c-b669-e588beb2a2c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\ntos\ke">
+      <UniqueIdentifier>{013fc19f-8a62-4f26-bc0d-19363899963e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\ntos\ke\amd64">
+      <UniqueIdentifier>{650a485c-f4fe-4704-ab95-ffbaa00fd26b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\ntos\ke\i386">
+      <UniqueIdentifier>{cea4e4f6-1b17-4549-bb1e-57b0b2e6d549}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\ntos\lpc">
+      <UniqueIdentifier>{46d04abb-c498-4194-ac0a-20263370f73a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\ntos\lpc\i386">
+      <UniqueIdentifier>{4dce51a7-62cf-4252-9b4a-25445ab6508b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\ntos\mm">
+      <UniqueIdentifier>{a719f352-2396-4dd5-a01b-33982c3ae7f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\ntos\mm\amd64">
+      <UniqueIdentifier>{78070516-3c70-4ad7-9b68-f26921c955e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\ntos\mm\i386">
+      <UniqueIdentifier>{72e10f67-e691-488c-b207-72f5cac44e43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\ntos\ob">
+      <UniqueIdentifier>{14908520-44b7-4a61-a0ff-4429cfbbf449}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\ntos\perf">
+      <UniqueIdentifier>{22f8483e-7d18-4829-aa8b-1c3898ec04ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\ntos\ps">
+      <UniqueIdentifier>{b04aae31-96dc-4255-8c83-04bbf9b8c68b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\ntos\ps\amd64">
+      <UniqueIdentifier>{58e2ed8d-a4b2-4d6c-b085-a74773b29322}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\ntos\ps\i386">
+      <UniqueIdentifier>{d82e2452-e083-4604-ac55-6f97c692478e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\ntos\raw">
+      <UniqueIdentifier>{8aa59de6-e2d5-467c-abd7-5cc73f6d1313}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\ntos\rtl">
+      <UniqueIdentifier>{f90780f8-3434-4066-975d-ad0c095dcf73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\ntos\rtl\amd64">
+      <UniqueIdentifier>{a6742da9-fb86-4792-978c-133b801afe81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\ntos\rtl\i386">
+      <UniqueIdentifier>{1874145c-5af5-4f4d-b6c5-d9dd9a00109d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\ntos\se">
+      <UniqueIdentifier>{817a0be5-d668-4e1f-b639-7f10c44f7690}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\ntos\VDM">
+      <UniqueIdentifier>{9af3cfab-b104-4f82-a97d-f6b3b2fda452}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\ntos\VDM\i386">
+      <UniqueIdentifier>{3dc49a22-39f9-4fec-ba23-720327af6ec2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\ntos\VERIFIER">
+      <UniqueIdentifier>{c1e60f0a-381a-42cc-9e2d-c1a10cefa9ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\ntos\wmi">
+      <UniqueIdentifier>{b9a5ea6e-3792-4deb-b250-5614c8e3214e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\ntos\wmi\amd64">
+      <UniqueIdentifier>{4a15fc01-31e1-4b11-9d15-eba07d2f75ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\ntos\wmi\i386">
+      <UniqueIdentifier>{fefb5360-928c-4b9f-b26f-22670f2d0d14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\inc">
+      <UniqueIdentifier>{6cc989b9-dea5-44a5-8b1b-8173cf1e3042}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="base\ntos\cache\cachedat.c">
+      <Filter>base\ntos\cache</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\cache\cachesub.c">
+      <Filter>base\ntos\cache</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\cache\ccperf.c">
+      <Filter>base\ntos\cache</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\cache\copysup.c">
+      <Filter>base\ntos\cache</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\cache\fssup.c">
+      <Filter>base\ntos\cache</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\cache\lazyrite.c">
+      <Filter>base\ntos\cache</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\cache\logsup.c">
+      <Filter>base\ntos\cache</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\cache\mdlsup.c">
+      <Filter>base\ntos\cache</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\cache\pinsup.c">
+      <Filter>base\ntos\cache</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\cache\vacbsup.c">
+      <Filter>base\ntos\cache</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\config\cmalloc.c">
+      <Filter>base\ntos\config</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\config\cmapi.c">
+      <Filter>base\ntos\config</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\config\cmapi2.c">
+      <Filter>base\ntos\config</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\config\cmboot.c">
+      <Filter>base\ntos\config</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\config\cmchek.c">
+      <Filter>base\ntos\config</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\config\cmchek2.c">
+      <Filter>base\ntos\config</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\config\cmclose.c">
+      <Filter>base\ntos\config</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\config\cmconfig.c">
+      <Filter>base\ntos\config</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\config\cmcontrl.c">
+      <Filter>base\ntos\config</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\config\cmdat.c">
+      <Filter>base\ntos\config</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\config\cmdat2.c">
+      <Filter>base\ntos\config</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\config\cmdatini.c">
+      <Filter>base\ntos\config</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\config\cmdelay.c">
+      <Filter>base\ntos\config</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\config\cmdelete.c">
+      <Filter>base\ntos\config</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\config\cmdown.c">
+      <Filter>base\ntos\config</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\config\cmgquota.c">
+      <Filter>base\ntos\config</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\config\cmhook.c">
+      <Filter>base\ntos\config</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\config\cmhvlist.c">
+      <Filter>base\ntos\config</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\config\cmindex.c">
+      <Filter>base\ntos\config</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\config\cminit.c">
+      <Filter>base\ntos\config</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\config\cmmapvw.c">
+      <Filter>base\ntos\config</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\config\cmname.c">
+      <Filter>base\ntos\config</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\config\cmnotify.c">
+      <Filter>base\ntos\config</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\config\cmparse.c">
+      <Filter>base\ntos\config</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\config\cmparse2.c">
+      <Filter>base\ntos\config</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\config\cmquery.c">
+      <Filter>base\ntos\config</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\config\cmsavres.c">
+      <Filter>base\ntos\config</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\config\cmse.c">
+      <Filter>base\ntos\config</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\config\cmsecache.c">
+      <Filter>base\ntos\config</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\config\cmsubs.c">
+      <Filter>base\ntos\config</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\config\cmsubs2.c">
+      <Filter>base\ntos\config</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\config\cmsubs3.c">
+      <Filter>base\ntos\config</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\config\cmsysini.c">
+      <Filter>base\ntos\config</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\config\cmtrecpy.c">
+      <Filter>base\ntos\config</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\config\cmtredel.c">
+      <Filter>base\ntos\config</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\config\cmtree.c">
+      <Filter>base\ntos\config</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\config\cmvalue.c">
+      <Filter>base\ntos\config</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\config\cmwmi.c">
+      <Filter>base\ntos\config</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\config\cmworker.c">
+      <Filter>base\ntos\config</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\config\cmwrapr.c">
+      <Filter>base\ntos\config</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\config\cmwrapr2.c">
+      <Filter>base\ntos\config</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\config\hivebin.c">
+      <Filter>base\ntos\config</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\config\hivecell.c">
+      <Filter>base\ntos\config</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\config\hivechek.c">
+      <Filter>base\ntos\config</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\config\hivefree.c">
+      <Filter>base\ntos\config</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\config\hivehint.c">
+      <Filter>base\ntos\config</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\config\hiveinit.c">
+      <Filter>base\ntos\config</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\config\hiveload.c">
+      <Filter>base\ntos\config</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\config\hivemap.c">
+      <Filter>base\ntos\config</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\config\hivesum.c">
+      <Filter>base\ntos\config</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\config\hivesync.c">
+      <Filter>base\ntos\config</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\config\ntapi.c">
+      <Filter>base\ntos\config</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\dbgk\dbgkobj.c">
+      <Filter>base\ntos\dbgk</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\dbgk\dbgkport.c">
+      <Filter>base\ntos\dbgk</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\dbgk\dbgkproc.c">
+      <Filter>base\ntos\dbgk</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ex\callback.c">
+      <Filter>base\ntos\ex</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ex\callperf.c">
+      <Filter>base\ntos\ex</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ex\delay.c">
+      <Filter>base\ntos\ex</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ex\event.c">
+      <Filter>base\ntos\ex</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ex\eventpr.c">
+      <Filter>base\ntos\ex</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ex\exatom.c">
+      <Filter>base\ntos\ex</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ex\exdata.c">
+      <Filter>base\ntos\ex</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ex\exinit.c">
+      <Filter>base\ntos\ex</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ex\fmutexc.c">
+      <Filter>base\ntos\ex</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ex\handle.c">
+      <Filter>base\ntos\ex</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ex\harderr.c">
+      <Filter>base\ntos\ex</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ex\keyedevent.c">
+      <Filter>base\ntos\ex</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ex\lookasid.c">
+      <Filter>base\ntos\ex</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ex\luid.c">
+      <Filter>base\ntos\ex</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ex\mutant.c">
+      <Filter>base\ntos\ex</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ex\nbqueue.c">
+      <Filter>base\ntos\ex</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ex\pool.c">
+      <Filter>base\ntos\ex</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ex\probe.c">
+      <Filter>base\ntos\ex</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ex\profile.c">
+      <Filter>base\ntos\ex</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ex\pushlock.c">
+      <Filter>base\ntos\ex</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ex\raise.c">
+      <Filter>base\ntos\ex</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ex\resource.c">
+      <Filter>base\ntos\ex</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ex\rundown.c">
+      <Filter>base\ntos\ex</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ex\semphore.c">
+      <Filter>base\ntos\ex</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ex\sysinfo.c">
+      <Filter>base\ntos\ex</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ex\timer.c">
+      <Filter>base\ntos\ex</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ex\uuid.c">
+      <Filter>base\ntos\ex</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ex\win32.c">
+      <Filter>base\ntos\ex</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ex\worker.c">
+      <Filter>base\ntos\ex</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ex\zone.c">
+      <Filter>base\ntos\ex</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ex\amd64\wowinfo.c">
+      <Filter>base\ntos\ex\amd64</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\fsrtl\dbcsname.c">
+      <Filter>base\ntos\fsrtl</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\fsrtl\fastio.c">
+      <Filter>base\ntos\fsrtl</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\fsrtl\faulttol.c">
+      <Filter>base\ntos\fsrtl</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\fsrtl\filelock.c">
+      <Filter>base\ntos\fsrtl</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\fsrtl\filter.c">
+      <Filter>base\ntos\fsrtl</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\fsrtl\filtrctx.c">
+      <Filter>base\ntos\fsrtl</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\fsrtl\fsfilter.c">
+      <Filter>base\ntos\fsrtl</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\fsrtl\fsrtlpc.c">
+      <Filter>base\ntos\fsrtl</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\fsrtl\largemcb.c">
+      <Filter>base\ntos\fsrtl</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\fsrtl\name.c">
+      <Filter>base\ntos\fsrtl</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\fsrtl\notify.c">
+      <Filter>base\ntos\fsrtl</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\fsrtl\oplock.c">
+      <Filter>base\ntos\fsrtl</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\fsrtl\pnp.c">
+      <Filter>base\ntos\fsrtl</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\fsrtl\stackovf.c">
+      <Filter>base\ntos\fsrtl</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\fsrtl\tunnel.c">
+      <Filter>base\ntos\fsrtl</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\fsrtl\unc.c">
+      <Filter>base\ntos\fsrtl</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\fstub\drivesup.c">
+      <Filter>base\ntos\fstub</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\init\initos.c">
+      <Filter>base\ntos\init</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\init\ntkrnlmp.c">
+      <Filter>base\ntos\init</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\init\ntoskrnl.c">
+      <Filter>base\ntos\init</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\io\ioguid.c">
+      <Filter>base\ntos\io</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\io\iomgr\cancelapi.c">
+      <Filter>base\ntos\io\iomgr</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\io\iomgr\complete.c">
+      <Filter>base\ntos\io\iomgr</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\io\iomgr\create.c">
+      <Filter>base\ntos\io\iomgr</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\io\iomgr\dev2dos.c">
+      <Filter>base\ntos\io\iomgr</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\io\iomgr\devctrl.c">
+      <Filter>base\ntos\io\iomgr</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\io\iomgr\dir.c">
+      <Filter>base\ntos\io\iomgr</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\io\iomgr\errorlog.c">
+      <Filter>base\ntos\io\iomgr</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\io\iomgr\fsctrl.c">
+      <Filter>base\ntos\io\iomgr</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\io\iomgr\internal.c">
+      <Filter>base\ntos\io\iomgr</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\io\iomgr\iodata.c">
+      <Filter>base\ntos\io\iomgr</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\io\iomgr\ioinit.c">
+      <Filter>base\ntos\io\iomgr</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\io\iomgr\iosubs.c">
+      <Filter>base\ntos\io\iomgr</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\io\iomgr\loadunld.c">
+      <Filter>base\ntos\io\iomgr</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\io\iomgr\lock.c">
+      <Filter>base\ntos\io\iomgr</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\io\iomgr\misc.c">
+      <Filter>base\ntos\io\iomgr</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\io\iomgr\objsup.c">
+      <Filter>base\ntos\io\iomgr</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\io\iomgr\open.c">
+      <Filter>base\ntos\io\iomgr</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\io\iomgr\parse.c">
+      <Filter>base\ntos\io\iomgr</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\io\iomgr\qsea.c">
+      <Filter>base\ntos\io\iomgr</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\io\iomgr\qsfs.c">
+      <Filter>base\ntos\io\iomgr</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\io\iomgr\qsinfo.c">
+      <Filter>base\ntos\io\iomgr</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\io\iomgr\qsquota.c">
+      <Filter>base\ntos\io\iomgr</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\io\iomgr\read.c">
+      <Filter>base\ntos\io\iomgr</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\io\iomgr\write.c">
+      <Filter>base\ntos\io\iomgr</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ke\apcobj.c">
+      <Filter>base\ntos\ke</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ke\apcsup.c">
+      <Filter>base\ntos\ke</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ke\balmgr.c">
+      <Filter>base\ntos\ke</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ke\bugcheck.c">
+      <Filter>base\ntos\ke</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ke\config.c">
+      <Filter>base\ntos\ke</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ke\debug.c">
+      <Filter>base\ntos\ke</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ke\devquobj.c">
+      <Filter>base\ntos\ke</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ke\dpclock.c">
+      <Filter>base\ntos\ke</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ke\dpcobj.c">
+      <Filter>base\ntos\ke</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ke\dpcsup.c">
+      <Filter>base\ntos\ke</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ke\eventobj.c">
+      <Filter>base\ntos\ke</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ke\gateobj.c">
+      <Filter>base\ntos\ke</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ke\hifreqlk.c">
+      <Filter>base\ntos\ke</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ke\idsched.c">
+      <Filter>base\ntos\ke</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ke\interobj.c">
+      <Filter>base\ntos\ke</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ke\kernldat.c">
+      <Filter>base\ntos\ke</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ke\kevutil.c">
+      <Filter>base\ntos\ke</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ke\kiinit.c">
+      <Filter>base\ntos\ke</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ke\miscc.c">
+      <Filter>base\ntos\ke</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ke\mutntobj.c">
+      <Filter>base\ntos\ke</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ke\procobj.c">
+      <Filter>base\ntos\ke</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ke\profobj.c">
+      <Filter>base\ntos\ke</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ke\queueobj.c">
+      <Filter>base\ntos\ke</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ke\raisexcp.c">
+      <Filter>base\ntos\ke</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ke\semphobj.c">
+      <Filter>base\ntos\ke</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ke\thkemul.c">
+      <Filter>base\ntos\ke</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ke\thredobj.c">
+      <Filter>base\ntos\ke</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ke\thredsup.c">
+      <Filter>base\ntos\ke</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ke\timerobj.c">
+      <Filter>base\ntos\ke</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ke\timersup.c">
+      <Filter>base\ntos\ke</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ke\wait.c">
+      <Filter>base\ntos\ke</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ke\waitsup.c">
+      <Filter>base\ntos\ke</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ke\xipi.c">
+      <Filter>base\ntos\ke</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ke\yield.c">
+      <Filter>base\ntos\ke</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ke\amd64\allproc.c">
+      <Filter>base\ntos\ke\amd64</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ke\amd64\apcuser.c">
+      <Filter>base\ntos\ke\amd64</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ke\amd64\callback.c">
+      <Filter>base\ntos\ke\amd64</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ke\amd64\decode.c">
+      <Filter>base\ntos\ke\amd64</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ke\amd64\exceptn.c">
+      <Filter>base\ntos\ke\amd64</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ke\amd64\flush.c">
+      <Filter>base\ntos\ke\amd64</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ke\amd64\flushtb.c">
+      <Filter>base\ntos\ke\amd64</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ke\amd64\initkr.c">
+      <Filter>base\ntos\ke\amd64</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ke\amd64\intobj.c">
+      <Filter>base\ntos\ke\amd64</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ke\amd64\ipi.c">
+      <Filter>base\ntos\ke\amd64</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ke\amd64\misc.c">
+      <Filter>base\ntos\ke\amd64</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ke\amd64\pat.c">
+      <Filter>base\ntos\ke\amd64</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ke\amd64\queuelock.c">
+      <Filter>base\ntos\ke\amd64</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ke\amd64\runtime.c">
+      <Filter>base\ntos\ke\amd64</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ke\amd64\spinlock.c">
+      <Filter>base\ntos\ke\amd64</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ke\amd64\thredini.c">
+      <Filter>base\ntos\ke\amd64</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ke\i386\abiosc.c">
+      <Filter>base\ntos\ke\i386</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ke\i386\allproc.c">
+      <Filter>base\ntos\ke\i386</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ke\i386\apcuser.c">
+      <Filter>base\ntos\ke\i386</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ke\i386\biosc.c">
+      <Filter>base\ntos\ke\i386</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ke\i386\callback.c">
+      <Filter>base\ntos\ke\i386</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ke\i386\exceptn.c">
+      <Filter>base\ntos\ke\i386</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ke\i386\flush.c">
+      <Filter>base\ntos\ke\i386</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ke\i386\flushtb.c">
+      <Filter>base\ntos\ke\i386</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ke\i386\gdtsup.c">
+      <Filter>base\ntos\ke\i386</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ke\i386\i386init.c">
+      <Filter>base\ntos\ke\i386</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ke\i386\intobj.c">
+      <Filter>base\ntos\ke\i386</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ke\i386\iopm.c">
+      <Filter>base\ntos\ke\i386</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ke\i386\kernlini.c">
+      <Filter>base\ntos\ke\i386</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ke\i386\largepag.c">
+      <Filter>base\ntos\ke\i386</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ke\i386\ldtsup.c">
+      <Filter>base\ntos\ke\i386</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ke\i386\misc.c">
+      <Filter>base\ntos\ke\i386</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ke\i386\mtrr.c">
+      <Filter>base\ntos\ke\i386</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ke\i386\mtrramd.c">
+      <Filter>base\ntos\ke\i386</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ke\i386\pat.c">
+      <Filter>base\ntos\ke\i386</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ke\i386\thredini.c">
+      <Filter>base\ntos\ke\i386</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ke\i386\trapc.c">
+      <Filter>base\ntos\ke\i386</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\lpc\lpcclose.c">
+      <Filter>base\ntos\lpc</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\lpc\lpccompl.c">
+      <Filter>base\ntos\lpc</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\lpc\lpcconn.c">
+      <Filter>base\ntos\lpc</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\lpc\lpccreat.c">
+      <Filter>base\ntos\lpc</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\lpc\lpcinit.c">
+      <Filter>base\ntos\lpc</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\lpc\lpclistn.c">
+      <Filter>base\ntos\lpc</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\lpc\lpcpriv.c">
+      <Filter>base\ntos\lpc</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\lpc\lpcquery.c">
+      <Filter>base\ntos\lpc</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\lpc\lpcqueue.c">
+      <Filter>base\ntos\lpc</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\lpc\lpcrecv.c">
+      <Filter>base\ntos\lpc</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\lpc\lpcreply.c">
+      <Filter>base\ntos\lpc</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\lpc\lpcsend.c">
+      <Filter>base\ntos\lpc</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\mm\acceschk.c">
+      <Filter>base\ntos\mm</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\mm\addrsup.c">
+      <Filter>base\ntos\mm</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\mm\allocpag.c">
+      <Filter>base\ntos\mm</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\mm\allocvm.c">
+      <Filter>base\ntos\mm</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\mm\buildmdl.c">
+      <Filter>base\ntos\mm</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\mm\creasect.c">
+      <Filter>base\ntos\mm</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\mm\deleteva.c">
+      <Filter>base\ntos\mm</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\mm\dmpaddr.c">
+      <Filter>base\ntos\mm</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\mm\extsect.c">
+      <Filter>base\ntos\mm</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\mm\flushbuf.c">
+      <Filter>base\ntos\mm</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\mm\flushsec.c">
+      <Filter>base\ntos\mm</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\mm\forksup.c">
+      <Filter>base\ntos\mm</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\mm\freevm.c">
+      <Filter>base\ntos\mm</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\mm\hypermap.c">
+      <Filter>base\ntos\mm</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\mm\iosup.c">
+      <Filter>base\ntos\mm</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\mm\lockvm.c">
+      <Filter>base\ntos\mm</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\mm\mapcache.c">
+      <Filter>base\ntos\mm</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\mm\mapview.c">
+      <Filter>base\ntos\mm</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\mm\miglobal.c">
+      <Filter>base\ntos\mm</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\mm\mmfault.c">
+      <Filter>base\ntos\mm</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\mm\mminit.c">
+      <Filter>base\ntos\mm</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\mm\mmquota.c">
+      <Filter>base\ntos\mm</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\mm\mmsup.c">
+      <Filter>base\ntos\mm</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\mm\modwrite.c">
+      <Filter>base\ntos\mm</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\mm\pagfault.c">
+      <Filter>base\ntos\mm</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\mm\pfndec.c">
+      <Filter>base\ntos\mm</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\mm\pfnlist.c">
+      <Filter>base\ntos\mm</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\mm\physical.c">
+      <Filter>base\ntos\mm</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\mm\procsup.c">
+      <Filter>base\ntos\mm</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\mm\protect.c">
+      <Filter>base\ntos\mm</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\mm\querysec.c">
+      <Filter>base\ntos\mm</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\mm\queryvm.c">
+      <Filter>base\ntos\mm</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\mm\readwrt.c">
+      <Filter>base\ntos\mm</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\mm\sectsup.c">
+      <Filter>base\ntos\mm</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\mm\session.c">
+      <Filter>base\ntos\mm</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\mm\sessload.c">
+      <Filter>base\ntos\mm</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\mm\shutdown.c">
+      <Filter>base\ntos\mm</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\mm\sysload.c">
+      <Filter>base\ntos\mm</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\mm\sysptes.c">
+      <Filter>base\ntos\mm</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\mm\umapview.c">
+      <Filter>base\ntos\mm</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\mm\vadtree.c">
+      <Filter>base\ntos\mm</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\mm\wrtfault.c">
+      <Filter>base\ntos\mm</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\mm\wrtwatch.c">
+      <Filter>base\ntos\mm</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\mm\wslist.c">
+      <Filter>base\ntos\mm</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\mm\wsmanage.c">
+      <Filter>base\ntos\mm</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\mm\wstree.c">
+      <Filter>base\ntos\mm</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\mm\zeropage.c">
+      <Filter>base\ntos\mm</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\mm\amd64\dataamd.c">
+      <Filter>base\ntos\mm\amd64</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\mm\amd64\initamd.c">
+      <Filter>base\ntos\mm\amd64</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\mm\i386\data386.c">
+      <Filter>base\ntos\mm\i386</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\mm\i386\init386.c">
+      <Filter>base\ntos\mm\i386</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\mm\i386\paesup.c">
+      <Filter>base\ntos\mm\i386</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\mm\i386\procpae.c">
+      <Filter>base\ntos\mm\i386</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\mm\i386\procx86.c">
+      <Filter>base\ntos\mm\i386</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\mm\i386\setmodfy.c">
+      <Filter>base\ntos\mm\i386</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ob\fastref.c">
+      <Filter>base\ntos\ob</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ob\obclose.c">
+      <Filter>base\ntos\ob</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ob\obcreate.c">
+      <Filter>base\ntos\ob</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ob\obdevmap.c">
+      <Filter>base\ntos\ob</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ob\obdir.c">
+      <Filter>base\ntos\ob</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ob\obhandle.c">
+      <Filter>base\ntos\ob</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ob\obinit.c">
+      <Filter>base\ntos\ob</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ob\obinsert.c">
+      <Filter>base\ntos\ob</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ob\oblink.c">
+      <Filter>base\ntos\ob</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ob\obquery.c">
+      <Filter>base\ntos\ob</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ob\obref.c">
+      <Filter>base\ntos\ob</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ob\obsdata.c">
+      <Filter>base\ntos\ob</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ob\obse.c">
+      <Filter>base\ntos\ob</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ob\obtype.c">
+      <Filter>base\ntos\ob</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ob\obwait.c">
+      <Filter>base\ntos\ob</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\perf\hooks.c">
+      <Filter>base\ntos\perf</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\perf\logging.c">
+      <Filter>base\ntos\perf</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\perf\perfdata.c">
+      <Filter>base\ntos\perf</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\perf\perfsup.c">
+      <Filter>base\ntos\perf</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ps\create.c">
+      <Filter>base\ntos\ps</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ps\kulookup.c">
+      <Filter>base\ntos\ps</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ps\pscid.c">
+      <Filter>base\ntos\ps</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ps\psctx.c">
+      <Filter>base\ntos\ps</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ps\psdelete.c">
+      <Filter>base\ntos\ps</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ps\psenum.c">
+      <Filter>base\ntos\ps</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ps\pshelper.c">
+      <Filter>base\ntos\ps</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ps\psimpers.c">
+      <Filter>base\ntos\ps</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ps\psinit.c">
+      <Filter>base\ntos\ps</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ps\psjob.c">
+      <Filter>base\ntos\ps</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ps\psopen.c">
+      <Filter>base\ntos\ps</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ps\psquery.c">
+      <Filter>base\ntos\ps</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ps\psquota.c">
+      <Filter>base\ntos\ps</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ps\psspnd.c">
+      <Filter>base\ntos\ps</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ps\security.c">
+      <Filter>base\ntos\ps</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ps\amd64\psctxamd64.c">
+      <Filter>base\ntos\ps\amd64</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ps\amd64\psldt.c">
+      <Filter>base\ntos\ps\amd64</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ps\amd64\psvdm.c">
+      <Filter>base\ntos\ps\amd64</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ps\i386\psctx386.c">
+      <Filter>base\ntos\ps\i386</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ps\i386\psldt.c">
+      <Filter>base\ntos\ps\i386</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\ps\i386\psvdm.c">
+      <Filter>base\ntos\ps\i386</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\raw\cleanup.c">
+      <Filter>base\ntos\raw</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\raw\close.c">
+      <Filter>base\ntos\raw</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\raw\create.c">
+      <Filter>base\ntos\raw</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\raw\fileinfo.c">
+      <Filter>base\ntos\raw</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\raw\fsctrl.c">
+      <Filter>base\ntos\raw</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\raw\rawdisp.c">
+      <Filter>base\ntos\raw</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\raw\rawinit.c">
+      <Filter>base\ntos\raw</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\raw\readwrit.c">
+      <Filter>base\ntos\raw</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\raw\strucsup.c">
+      <Filter>base\ntos\raw</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\rtl\acledit.c">
+      <Filter>base\ntos\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\rtl\add2stra.c">
+      <Filter>base\ntos\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\rtl\add2strw.c">
+      <Filter>base\ntos\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\rtl\assert.c">
+      <Filter>base\ntos\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\rtl\atom.c">
+      <Filter>base\ntos\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\rtl\avltable.c">
+      <Filter>base\ntos\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\rtl\bitmap.c">
+      <Filter>base\ntos\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\rtl\byteswap.c">
+      <Filter>base\ntos\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\rtl\cnvint.c">
+      <Filter>base\ntos\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\rtl\debug.c">
+      <Filter>base\ntos\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\rtl\eballoc.c">
+      <Filter>base\ntos\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\rtl\environ.c">
+      <Filter>base\ntos\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\rtl\error.c">
+      <Filter>base\ntos\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\rtl\excptdbg.c">
+      <Filter>base\ntos\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\rtl\generr.c">
+      <Filter>base\ntos\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\rtl\gentable.c">
+      <Filter>base\ntos\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\rtl\guid.c">
+      <Filter>base\ntos\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\rtl\imagedir.c">
+      <Filter>base\ntos\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\rtl\intbits.c">
+      <Filter>base\ntos\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\rtl\ldrreloc.c">
+      <Filter>base\ntos\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\rtl\ldrrsrc.c">
+      <Filter>base\ntos\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\rtl\lookup.c">
+      <Filter>base\ntos\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\rtl\message.c">
+      <Filter>base\ntos\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\rtl\nls.c">
+      <Filter>base\ntos\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\rtl\nlsxlat.c">
+      <Filter>base\ntos\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\rtl\pctohdr.c">
+      <Filter>base\ntos\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\rtl\peb.c">
+      <Filter>base\ntos\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\rtl\prefix.c">
+      <Filter>base\ntos\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\rtl\regutil.c">
+      <Filter>base\ntos\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\rtl\rtlassig.c">
+      <Filter>base\ntos\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\rtl\rtldata.c">
+      <Filter>base\ntos\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\rtl\rtlexec.c">
+      <Filter>base\ntos\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\rtl\rtlnthdr.c">
+      <Filter>base\ntos\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\rtl\sertl.c">
+      <Filter>base\ntos\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\rtl\splay.c">
+      <Filter>base\ntos\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\rtl\stktrace.c">
+      <Filter>base\ntos\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\rtl\str2adda.c">
+      <Filter>base\ntos\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\rtl\str2addw.c">
+      <Filter>base\ntos\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\rtl\string.c">
+      <Filter>base\ntos\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\rtl\sysvol.c">
+      <Filter>base\ntos\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\rtl\time.c">
+      <Filter>base\ntos\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\rtl\tracedb.c">
+      <Filter>base\ntos\rtl</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\rtl\amd64\context.c">
+      <Filter>base\ntos\rtl\amd64</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\rtl\amd64\exdsptch.c">
+      <Filter>base\ntos\rtl\amd64</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\rtl\amd64\misalign.c">
+      <Filter>base\ntos\rtl\amd64</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\rtl\amd64\raise.c">
+      <Filter>base\ntos\rtl\amd64</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\rtl\amd64\stkwalk.c">
+      <Filter>base\ntos\rtl\amd64</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\rtl\i386\context.c">
+      <Filter>base\ntos\rtl\i386</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\rtl\i386\debug3.c">
+      <Filter>base\ntos\rtl\i386</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\rtl\i386\divlarge.c">
+      <Filter>base\ntos\rtl\i386</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\rtl\i386\exdsptch.c">
+      <Filter>base\ntos\rtl\i386</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\rtl\i386\getcalr.c">
+      <Filter>base\ntos\rtl\i386</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\se\accessck.c">
+      <Filter>base\ntos\se</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\se\adtinit.c">
+      <Filter>base\ntos\se</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\se\adtlog.c">
+      <Filter>base\ntos\se</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\se\adtutil.c">
+      <Filter>base\ntos\se</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\se\adtvars.c">
+      <Filter>base\ntos\se</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\se\capture.c">
+      <Filter>base\ntos\se</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\se\privileg.c">
+      <Filter>base\ntos\se</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\se\rmaudit.c">
+      <Filter>base\ntos\se</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\se\rmlogon.c">
+      <Filter>base\ntos\se</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\se\rmmain.c">
+      <Filter>base\ntos\se</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\se\rmvars.c">
+      <Filter>base\ntos\se</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\se\seassign.c">
+      <Filter>base\ntos\se</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\se\seastate.c">
+      <Filter>base\ntos\se</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\se\seaudit.c">
+      <Filter>base\ntos\se</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\se\seclient.c">
+      <Filter>base\ntos\se</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\se\seglobal.c">
+      <Filter>base\ntos\se</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\se\seinit.c">
+      <Filter>base\ntos\se</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\se\semethod.c">
+      <Filter>base\ntos\se</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\se\sep.c">
+      <Filter>base\ntos\se</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\se\sepaudit.c">
+      <Filter>base\ntos\se</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\se\subject.c">
+      <Filter>base\ntos\se</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\se\token.c">
+      <Filter>base\ntos\se</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\se\tokenadj.c">
+      <Filter>base\ntos\se</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\se\tokendup.c">
+      <Filter>base\ntos\se</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\se\tokenopn.c">
+      <Filter>base\ntos\se</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\se\tokenqry.c">
+      <Filter>base\ntos\se</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\se\tokenset.c">
+      <Filter>base\ntos\se</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\wmi\alloc.c">
+      <Filter>base\ntos\wmi</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\wmi\api.c">
+      <Filter>base\ntos\wmi</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\wmi\callouts.c">
+      <Filter>base\ntos\wmi</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\wmi\chunk.c">
+      <Filter>base\ntos\wmi</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\wmi\consumer.c">
+      <Filter>base\ntos\wmi</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\wmi\dataprov.c">
+      <Filter>base\ntos\wmi</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\wmi\ds.c">
+      <Filter>base\ntos\wmi</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\wmi\enabdisa.c">
+      <Filter>base\ntos\wmi</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\wmi\globalog.c">
+      <Filter>base\ntos\wmi</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\wmi\mca.c">
+      <Filter>base\ntos\wmi</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\wmi\notify.c">
+      <Filter>base\ntos\wmi</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\wmi\provider.c">
+      <Filter>base\ntos\wmi</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\wmi\register.c">
+      <Filter>base\ntos\wmi</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\wmi\secure.c">
+      <Filter>base\ntos\wmi</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\wmi\smbios.c">
+      <Filter>base\ntos\wmi</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\wmi\traceapi.c">
+      <Filter>base\ntos\wmi</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\wmi\tracelog.c">
+      <Filter>base\ntos\wmi</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\wmi\tracesup.c">
+      <Filter>base\ntos\wmi</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\wmi\wmi.c">
+      <Filter>base\ntos\wmi</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\wmi\wmidata.c">
+      <Filter>base\ntos\wmi</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\wmi\amd64\mcaevent.c">
+      <Filter>base\ntos\wmi\amd64</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ntos\wmi\i386\mcaevent.c">
+      <Filter>base\ntos\wmi\i386</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="base\ntos\cache\cc.h">
+      <Filter>base\ntos\cache</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ntos\config\cmp.h">
+      <Filter>base\ntos\config</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ntos\config\cmpbug.h">
+      <Filter>base\ntos\config</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ntos\config\hive.h">
+      <Filter>base\ntos\config</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ntos\dbgk\dbgkp.h">
+      <Filter>base\ntos\dbgk</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ntos\ex\exp.h">
+      <Filter>base\ntos\ex</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ntos\fsrtl\fsrtlp.h">
+      <Filter>base\ntos\fsrtl</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ntos\fstub\drivesup.h">
+      <Filter>base\ntos\fstub</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ntos\fstub\fstub.h">
+      <Filter>base\ntos\fstub</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ntos\fstub\haldisp.h">
+      <Filter>base\ntos\fstub</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ntos\inc\amd64.h">
+      <Filter>base\ntos\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ntos\inc\cache.h">
+      <Filter>base\ntos\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ntos\inc\cm.h">
+      <Filter>base\ntos\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ntos\inc\cmdata.h">
+      <Filter>base\ntos\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ntos\inc\cpyuchr.h">
+      <Filter>base\ntos\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ntos\inc\dbgk.h">
+      <Filter>base\ntos\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ntos\inc\dockintf.h">
+      <Filter>base\ntos\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ntos\inc\ex.h">
+      <Filter>base\ntos\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ntos\inc\exboosts.h">
+      <Filter>base\ntos\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ntos\inc\exlevels.h">
+      <Filter>base\ntos\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ntos\inc\fsrtl.h">
+      <Filter>base\ntos\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ntos\inc\hal.h">
+      <Filter>base\ntos\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ntos\inc\hivedata.h">
+      <Filter>base\ntos\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ntos\inc\i386.h">
+      <Filter>base\ntos\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ntos\inc\init.h">
+      <Filter>base\ntos\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ntos\inc\intrlk.h">
+      <Filter>base\ntos\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ntos\inc\io.h">
+      <Filter>base\ntos\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ntos\inc\kd.h">
+      <Filter>base\ntos\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ntos\inc\kddll.h">
+      <Filter>base\ntos\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ntos\inc\ke.h">
+      <Filter>base\ntos\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ntos\inc\kx.h">
+      <Filter>base\ntos\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ntos\inc\lfs.h">
+      <Filter>base\ntos\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ntos\inc\lpc.h">
+      <Filter>base\ntos\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ntos\inc\mm.h">
+      <Filter>base\ntos\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ntos\inc\ntos.h">
+      <Filter>base\ntos\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ntos\inc\ntosdef.h">
+      <Filter>base\ntos\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ntos\inc\ob.h">
+      <Filter>base\ntos\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ntos\inc\perf.h">
+      <Filter>base\ntos\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ntos\inc\pnp.h">
+      <Filter>base\ntos\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ntos\inc\po.h">
+      <Filter>base\ntos\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ntos\inc\pool.h">
+      <Filter>base\ntos\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ntos\inc\procpowr.h">
+      <Filter>base\ntos\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ntos\inc\ps.h">
+      <Filter>base\ntos\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ntos\inc\se.h">
+      <Filter>base\ntos\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ntos\inc\smbios.h">
+      <Filter>base\ntos\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ntos\inc\stktrace.h">
+      <Filter>base\ntos\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ntos\inc\v86emul.h">
+      <Filter>base\ntos\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ntos\inc\vdmntos.h">
+      <Filter>base\ntos\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ntos\inc\verifier.h">
+      <Filter>base\ntos\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ntos\inc\wmi.h">
+      <Filter>base\ntos\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ntos\io\iop.h">
+      <Filter>base\ntos\io</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ntos\io\iopcmn.h">
+      <Filter>base\ntos\io</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ntos\io\ioverifier.h">
+      <Filter>base\ntos\io</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ntos\io\iovutil.h">
+      <Filter>base\ntos\io</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ntos\io\sessnirp.h">
+      <Filter>base\ntos\io</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ntos\io\trackirp.h">
+      <Filter>base\ntos\io</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ntos\io\iomgr\iomgr.h">
+      <Filter>base\ntos\io\iomgr</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ntos\io\PNPMGR\pplastgood.h">
+      <Filter>base\ntos\io\PNPMGR</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ntos\io\PNPMGR\ppvutil.h">
+      <Filter>base\ntos\io\PNPMGR</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ntos\ke\ki.h">
+      <Filter>base\ntos\ke</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ntos\ke\amd64\kiamd64.h">
+      <Filter>base\ntos\ke\amd64</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ntos\ke\i386\abios.h">
+      <Filter>base\ntos\ke\i386</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ntos\ke\i386\kix86.h">
+      <Filter>base\ntos\ke\i386</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ntos\ke\i386\mtrr.h">
+      <Filter>base\ntos\ke\i386</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ntos\ke\i386\pat.h">
+      <Filter>base\ntos\ke\i386</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ntos\lpc\lpcp.h">
+      <Filter>base\ntos\lpc</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ntos\mm\mi.h">
+      <Filter>base\ntos\mm</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ntos\mm\amd64\miamd.h">
+      <Filter>base\ntos\mm\amd64</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ntos\mm\i386\mi386.h">
+      <Filter>base\ntos\mm\i386</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ntos\ob\obp.h">
+      <Filter>base\ntos\ob</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ntos\ob\obvutil.h">
+      <Filter>base\ntos\ob</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ntos\perf\perfp.h">
+      <Filter>base\ntos\perf</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ntos\ps\psp.h">
+      <Filter>base\ntos\ps</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ntos\raw\nodetype.h">
+      <Filter>base\ntos\raw</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ntos\raw\rawprocs.h">
+      <Filter>base\ntos\raw</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ntos\raw\rawstruc.h">
+      <Filter>base\ntos\raw</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ntos\rtl\add2strt.h">
+      <Filter>base\ntos\rtl</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ntos\rtl\error.h">
+      <Filter>base\ntos\rtl</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ntos\rtl\ntrtlp.h">
+      <Filter>base\ntos\rtl</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ntos\rtl\str2addt.h">
+      <Filter>base\ntos\rtl</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ntos\rtl\tracedbp.h">
+      <Filter>base\ntos\rtl</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ntos\rtl\amd64\ntrtlamd64.h">
+      <Filter>base\ntos\rtl\amd64</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ntos\rtl\i386\ntrtl386.h">
+      <Filter>base\ntos\rtl\i386</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ntos\se\adt.h">
+      <Filter>base\ntos\se</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ntos\se\adtp.h">
+      <Filter>base\ntos\se</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ntos\se\adtutil.h">
+      <Filter>base\ntos\se</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ntos\se\pch.h">
+      <Filter>base\ntos\se</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ntos\se\rmp.h">
+      <Filter>base\ntos\se</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ntos\se\sep.h">
+      <Filter>base\ntos\se</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ntos\se\tokenp.h">
+      <Filter>base\ntos\se</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ntos\VERIFIER\halverifier.h">
+      <Filter>base\ntos\VERIFIER</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ntos\VERIFIER\vfbugcheck.h">
+      <Filter>base\ntos\VERIFIER</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ntos\VERIFIER\vfddi.h">
+      <Filter>base\ntos\VERIFIER</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ntos\VERIFIER\vfdeadlock.h">
+      <Filter>base\ntos\VERIFIER</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ntos\VERIFIER\vfdebug.h">
+      <Filter>base\ntos\VERIFIER</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ntos\VERIFIER\vfdef.h">
+      <Filter>base\ntos\VERIFIER</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ntos\VERIFIER\vfdevobj.h">
+      <Filter>base\ntos\VERIFIER</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ntos\VERIFIER\vffilter.h">
+      <Filter>base\ntos\VERIFIER</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ntos\VERIFIER\vfgeneric.h">
+      <Filter>base\ntos\VERIFIER</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ntos\VERIFIER\vfinit.h">
+      <Filter>base\ntos\VERIFIER</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ntos\VERIFIER\vfirp.h">
+      <Filter>base\ntos\VERIFIER</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ntos\VERIFIER\vfirpdb.h">
+      <Filter>base\ntos\VERIFIER</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ntos\VERIFIER\vfirplog.h">
+      <Filter>base\ntos\VERIFIER</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ntos\VERIFIER\vfmacro.h">
+      <Filter>base\ntos\VERIFIER</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ntos\VERIFIER\vfmajor.h">
+      <Filter>base\ntos\VERIFIER</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ntos\VERIFIER\vfmessage.h">
+      <Filter>base\ntos\VERIFIER</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ntos\VERIFIER\vfpacket.h">
+      <Filter>base\ntos\VERIFIER</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ntos\VERIFIER\vfpnp.h">
+      <Filter>base\ntos\VERIFIER</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ntos\VERIFIER\vfpower.h">
+      <Filter>base\ntos\VERIFIER</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ntos\VERIFIER\vfpragma.h">
+      <Filter>base\ntos\VERIFIER</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ntos\VERIFIER\vfprint.h">
+      <Filter>base\ntos\VERIFIER</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ntos\VERIFIER\vfrandom.h">
+      <Filter>base\ntos\VERIFIER</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ntos\VERIFIER\vfsettings.h">
+      <Filter>base\ntos\VERIFIER</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ntos\VERIFIER\vfstack.h">
+      <Filter>base\ntos\VERIFIER</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ntos\VERIFIER\vftriage.h">
+      <Filter>base\ntos\VERIFIER</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ntos\VERIFIER\vfutil.h">
+      <Filter>base\ntos\VERIFIER</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ntos\VERIFIER\vfwmi.h">
+      <Filter>base\ntos\VERIFIER</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ntos\VERIFIER\vfzwapi.h">
+      <Filter>base\ntos\VERIFIER</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ntos\wmi\mcaevent.h">
+      <Filter>base\ntos\wmi</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ntos\wmi\tracep.h">
+      <Filter>base\ntos\wmi</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ntos\wmi\wmikmp.h">
+      <Filter>base\ntos\wmi</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ntos\wmi\wmiumds.h">
+      <Filter>base\ntos\wmi</Filter>
+    </ClInclude>
+    <ClInclude Include="base\inc\ntdlltrc.h">
+      <Filter>base\inc</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="base\ntos\ex\amd64\hifreqlk.asm">
+      <Filter>base\ntos\ex\amd64</Filter>
+    </None>
+    <None Include="base\ntos\ex\amd64\hrderror.asm">
+      <Filter>base\ntos\ex\amd64</Filter>
+    </None>
+    <None Include="base\ntos\ex\amd64\intrlock.asm">
+      <Filter>base\ntos\ex\amd64</Filter>
+    </None>
+    <None Include="base\ntos\ex\i386\intrlfst.asm">
+      <Filter>base\ntos\ex\i386</Filter>
+    </None>
+    <None Include="base\ntos\ex\i386\intrlock.asm">
+      <Filter>base\ntos\ex\i386</Filter>
+    </None>
+    <None Include="base\ntos\ex\i386\splocks.asm">
+      <Filter>base\ntos\ex\i386</Filter>
+    </None>
+    <None Include="base\ntos\inc\em387.inc">
+      <Filter>base\ntos\inc</Filter>
+    </None>
+    <None Include="base\ntos\inc\fastsys.inc">
+      <Filter>base\ntos\inc</Filter>
+    </None>
+    <None Include="base\ntos\inc\irqli386.inc">
+      <Filter>base\ntos\inc</Filter>
+    </None>
+    <None Include="base\ntos\inc\mac386.inc">
+      <Filter>base\ntos\inc</Filter>
+    </None>
+    <None Include="base\ntos\init\amd64def.src">
+      <Filter>base\ntos\init</Filter>
+    </None>
+    <None Include="base\ntos\init\i386def.src">
+      <Filter>base\ntos\init</Filter>
+    </None>
+    <None Include="base\ntos\init\ntoskrnl.src">
+      <Filter>base\ntos\init</Filter>
+    </None>
+    <None Include="base\ntos\ke\genxx.inc">
+      <Filter>base\ntos\ke</Filter>
+    </None>
+    <None Include="base\ntos\ke\amd64\apcint.asm">
+      <Filter>base\ntos\ke\amd64</Filter>
+    </None>
+    <None Include="base\ntos\ke\amd64\callout.asm">
+      <Filter>base\ntos\ke\amd64</Filter>
+    </None>
+    <None Include="base\ntos\ke\amd64\clockint.asm">
+      <Filter>base\ntos\ke\amd64</Filter>
+    </None>
+    <None Include="base\ntos\ke\amd64\cpuid.asm">
+      <Filter>base\ntos\ke\amd64</Filter>
+    </None>
+    <None Include="base\ntos\ke\amd64\ctxswap.asm">
+      <Filter>base\ntos\ke\amd64</Filter>
+    </None>
+    <None Include="base\ntos\ke\amd64\dpcint.asm">
+      <Filter>base\ntos\ke\amd64</Filter>
+    </None>
+    <None Include="base\ntos\ke\amd64\idle.asm">
+      <Filter>base\ntos\ke\amd64</Filter>
+    </None>
+    <None Include="base\ntos\ke\amd64\intipi.asm">
+      <Filter>base\ntos\ke\amd64</Filter>
+    </None>
+    <None Include="base\ntos\ke\amd64\intsup.asm">
+      <Filter>base\ntos\ke\amd64</Filter>
+    </None>
+    <None Include="base\ntos\ke\amd64\miscs.asm">
+      <Filter>base\ntos\ke\amd64</Filter>
+    </None>
+    <None Include="base\ntos\ke\amd64\procstat.asm">
+      <Filter>base\ntos\ke\amd64</Filter>
+    </None>
+    <None Include="base\ntos\ke\amd64\profint.asm">
+      <Filter>base\ntos\ke\amd64</Filter>
+    </None>
+    <None Include="base\ntos\ke\amd64\services.stb">
+      <Filter>base\ntos\ke\amd64</Filter>
+    </None>
+    <None Include="base\ntos\ke\amd64\services.tab">
+      <Filter>base\ntos\ke\amd64</Filter>
+    </None>
+    <None Include="base\ntos\ke\amd64\start.asm">
+      <Filter>base\ntos\ke\amd64</Filter>
+    </None>
+    <None Include="base\ntos\ke\amd64\sysstubs.asm">
+      <Filter>base\ntos\ke\amd64</Filter>
+    </None>
+    <None Include="base\ntos\ke\amd64\systable.asm">
+      <Filter>base\ntos\ke\amd64</Filter>
+    </None>
+    <None Include="base\ntos\ke\amd64\table.stb">
+      <Filter>base\ntos\ke\amd64</Filter>
+    </None>
+    <None Include="base\ntos\ke\amd64\threadbg.asm">
+      <Filter>base\ntos\ke\amd64</Filter>
+    </None>
+    <None Include="base\ntos\ke\amd64\trap.asm">
+      <Filter>base\ntos\ke\amd64</Filter>
+    </None>
+    <None Include="base\ntos\ke\amd64\zero.asm">
+      <Filter>base\ntos\ke\amd64</Filter>
+    </None>
+    <None Include="base\ntos\ke\i386\abiosa.asm">
+      <Filter>base\ntos\ke\i386</Filter>
+    </None>
+    <None Include="base\ntos\ke\i386\callout.asm">
+      <Filter>base\ntos\ke\i386</Filter>
+    </None>
+    <None Include="base\ntos\ke\i386\clockint.asm">
+      <Filter>base\ntos\ke\i386</Filter>
+    </None>
+    <None Include="base\ntos\ke\i386\cpu.asm">
+      <Filter>base\ntos\ke\i386</Filter>
+    </None>
+    <None Include="base\ntos\ke\i386\cpu.inc">
+      <Filter>base\ntos\ke\i386</Filter>
+    </None>
+    <None Include="base\ntos\ke\i386\ctxswap.asm">
+      <Filter>base\ntos\ke\i386</Filter>
+    </None>
+    <None Include="base\ntos\ke\i386\emv86.asm">
+      <Filter>base\ntos\ke\i386</Filter>
+    </None>
+    <None Include="base\ntos\ke\i386\emxcptn.asm">
+      <Filter>base\ntos\ke\i386</Filter>
+    </None>
+    <None Include="base\ntos\ke\i386\i386pcr.asm">
+      <Filter>base\ntos\ke\i386</Filter>
+    </None>
+    <None Include="base\ntos\ke\i386\instemul.asm">
+      <Filter>base\ntos\ke\i386</Filter>
+    </None>
+    <None Include="base\ntos\ke\i386\int.asm">
+      <Filter>base\ntos\ke\i386</Filter>
+    </None>
+    <None Include="base\ntos\ke\i386\intsup.asm">
+      <Filter>base\ntos\ke\i386</Filter>
+    </None>
+    <None Include="base\ntos\ke\i386\kimacro.inc">
+      <Filter>base\ntos\ke\i386</Filter>
+    </None>
+    <None Include="base\ntos\ke\i386\ldtsup2.asm">
+      <Filter>base\ntos\ke\i386</Filter>
+    </None>
+    <None Include="base\ntos\ke\i386\mi.inc">
+      <Filter>base\ntos\ke\i386</Filter>
+    </None>
+    <None Include="base\ntos\ke\i386\mpipia.asm">
+      <Filter>base\ntos\ke\i386</Filter>
+    </None>
+    <None Include="base\ntos\ke\i386\newsysbg.asm">
+      <Filter>base\ntos\ke\i386</Filter>
+    </None>
+    <None Include="base\ntos\ke\i386\procstat.asm">
+      <Filter>base\ntos\ke\i386</Filter>
+    </None>
+    <None Include="base\ntos\ke\i386\services.stb">
+      <Filter>base\ntos\ke\i386</Filter>
+    </None>
+    <None Include="base\ntos\ke\i386\services.tab">
+      <Filter>base\ntos\ke\i386</Filter>
+    </None>
+    <None Include="base\ntos\ke\i386\spindbg.asm">
+      <Filter>base\ntos\ke\i386</Filter>
+    </None>
+    <None Include="base\ntos\ke\i386\spinlock.asm">
+      <Filter>base\ntos\ke\i386</Filter>
+    </None>
+    <None Include="base\ntos\ke\i386\sysstubs.asm">
+      <Filter>base\ntos\ke\i386</Filter>
+    </None>
+    <None Include="base\ntos\ke\i386\systable.asm">
+      <Filter>base\ntos\ke\i386</Filter>
+    </None>
+    <None Include="base\ntos\ke\i386\table.stb">
+      <Filter>base\ntos\ke\i386</Filter>
+    </None>
+    <None Include="base\ntos\ke\i386\threadbg.asm">
+      <Filter>base\ntos\ke\i386</Filter>
+    </None>
+    <None Include="base\ntos\ke\i386\timindex.asm">
+      <Filter>base\ntos\ke\i386</Filter>
+    </None>
+    <None Include="base\ntos\ke\i386\trap.asm">
+      <Filter>base\ntos\ke\i386</Filter>
+    </None>
+    <None Include="base\ntos\ke\i386\zero.asm">
+      <Filter>base\ntos\ke\i386</Filter>
+    </None>
+    <None Include="base\ntos\lpc\i386\lpcmove.asm">
+      <Filter>base\ntos\lpc\i386</Filter>
+    </None>
+    <None Include="base\ntos\mm\i386\pae.asm">
+      <Filter>base\ntos\mm\i386</Filter>
+    </None>
+    <None Include="base\ntos\ps\amd64\psctxwrap.asm">
+      <Filter>base\ntos\ps\amd64</Filter>
+    </None>
+    <None Include="base\ntos\rtl\mp">
+      <Filter>base\ntos\rtl</Filter>
+    </None>
+    <None Include="base\ntos\rtl\amd64\capture.asm">
+      <Filter>base\ntos\rtl\amd64</Filter>
+    </None>
+    <None Include="base\ntos\rtl\amd64\chkstk.asm">
+      <Filter>base\ntos\rtl\amd64</Filter>
+    </None>
+    <None Include="base\ntos\rtl\amd64\debugstb.asm">
+      <Filter>base\ntos\rtl\amd64</Filter>
+    </None>
+    <None Include="base\ntos\rtl\amd64\movemem.asm">
+      <Filter>base\ntos\rtl\amd64</Filter>
+    </None>
+    <None Include="base\ntos\rtl\amd64\slist.asm">
+      <Filter>base\ntos\rtl\amd64</Filter>
+    </None>
+    <None Include="base\ntos\rtl\amd64\xcptmisc.asm">
+      <Filter>base\ntos\rtl\amd64</Filter>
+    </None>
+    <None Include="base\ntos\rtl\i386\debug2.asm">
+      <Filter>base\ntos\rtl\i386</Filter>
+    </None>
+    <None Include="base\ntos\rtl\i386\ioaccess.asm">
+      <Filter>base\ntos\rtl\i386</Filter>
+    </None>
+    <None Include="base\ntos\rtl\i386\largeint.asm">
+      <Filter>base\ntos\rtl\i386</Filter>
+    </None>
+    <None Include="base\ntos\rtl\i386\movemem.asm">
+      <Filter>base\ntos\rtl\i386</Filter>
+    </None>
+    <None Include="base\ntos\rtl\i386\raise.asm">
+      <Filter>base\ntos\rtl\i386</Filter>
+    </None>
+    <None Include="base\ntos\rtl\i386\slist.asm">
+      <Filter>base\ntos\rtl\i386</Filter>
+    </None>
+    <None Include="base\ntos\rtl\i386\stkwalk.asm">
+      <Filter>base\ntos\rtl\i386</Filter>
+    </None>
+    <None Include="base\ntos\rtl\i386\stringsp.asm">
+      <Filter>base\ntos\rtl\i386</Filter>
+    </None>
+    <None Include="base\ntos\rtl\i386\xcptmisc.asm">
+      <Filter>base\ntos\rtl\i386</Filter>
+    </None>
+    <None Include="base\ntos\VDM\i386\vdm.inc">
+      <Filter>base\ntos\VDM\i386</Filter>
+    </None>
+  </ItemGroup>
+</Project>
