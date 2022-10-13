@@ -2,7 +2,7 @@
 
 1. create build directories by executing `python3 PREBUILD.py`
 
-2. open "WRK.sln" with Visual Studio 2022
+2. open "WRK.sln" with Visual Studio 2022 (or Visual Studio 2019)
 
 3. build solution with pre-defined "x86" (for Windows Server 2003 SP1) configuration
 
