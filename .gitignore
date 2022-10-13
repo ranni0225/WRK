@@ -1,0 +1,9 @@
+OBJI386/
+OBJAMD64/
+
+wrkx86.*
+wrkamd64.*
+
+*.htm
+*.log
+*.cache
