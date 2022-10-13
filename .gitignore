@@ -4,6 +4,6 @@ OBJAMD64/
 wrkx86.*
 wrkamd64.*
 
+*.cache
 *.htm
 *.log
-*.cache
