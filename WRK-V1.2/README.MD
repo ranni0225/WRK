@@ -1,5 +1,7 @@
 # README
 
+0. ensure there is no space character in your path (fatal error U1077, return code 0x2)
+
 1. create build directories by executing `python3 PREBUILD.py`
 
 2. open "WRK.sln" with Visual Studio 2022 (or Visual Studio 2019)
