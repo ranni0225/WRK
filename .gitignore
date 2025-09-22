@@ -1,5 +1,7 @@
 OBJI386/
 OBJAMD64/
+ProjectOZ/runx86/
+ProjectOZ/files/
 
 wrkx86.*
 wrkamd64.*

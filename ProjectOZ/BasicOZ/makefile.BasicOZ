@@ -1,0 +1,126 @@
+#
+# Copyright (c) Microsoft Corporation. All rights reserved. 
+# 
+# You may only use this code if you agree to the terms of the Windows Research Kernel Source Code License agreement (see License.txt).
+# If you do not agree to the terms, do not use the code.
+# 
+
+basicoz = $(rundir)\BasicOZ
+Machinelst = $(rundir)\Machine.lst
+
+build: $(basicoz).boz
+
+# basicoztarget
+basicozbase=0x60000000
+basicozalign=0x10000
+basicozentry=_basicoz
+
+OBJ = obj$(targ)
+
+
+!if "$(targ)" == "i386"
+asobjs = \
+	$(OBJ)\Machine.obj
+
+!else
+asobjs =
+!endif
+
+ccarchobjs=
+			
+ccobjs= \
+	$(OBJ)\Boot.obj			\
+	$(OBJ)\Image.obj		\
+	$(OBJ)\IO.obj			\
+	$(OBJ)\IPC.obj			\
+	$(OBJ)\Namespace.obj	\
+	$(OBJ)\Object.obj		\
+	$(OBJ)\Process.obj		\
+	$(OBJ)\Runtime.obj		\
+	$(OBJ)\Scalars.obj		\
+	$(OBJ)\SPACEOps.obj		\
+	$(OBJ)\Thread.obj		\
+	$(OBJ)\VirtualMemory.obj
+		
+!include DRIVERS\makefile.DRIVERS
+
+basicozobjs = $(asobjs) $(ccarchobjs) $(ccobjs) $(driverobjs)
+
+!if !defined(wrk) || !defined(subdir) || !defined(rundir) || !defined(targ) || ("$(targ)" != "i386" && "$(targ)" != "amd64")
+!ERROR Run subdir makefiles from $(MAKEDIR)\.. -- e.g. make $(subdir).build
+!endif
+
+!if "$(targ)" == "i386"
+targdefs  = -D_X86_=1 -Di386=1 -DSTD_CALL -DFPO=0
+targaopts = -safeseh -coff -Zm
+targcopts = -Gm- -GX- -G7 -Ze -Gi- -QIfdiv- -Oxs -Oy- -Z7
+targlopts =	
+machine   = x86
+archml    = ml
+!else
+targdefs  = -D_WIN64 -D_AMD64_ -DAMD64
+targaopts = 
+targcopts = -Wp64 -Oxt -EHs-c- -Oxt -Gs12288
+targlopts =	-IGNORE:4108,4088,4218,4218,4235
+machine   = amd64
+archml    = ml64
+!endif
+
+basicozlopts = -SUBSYSTEM:NATIVE -BASE:$(basicozbase) -ALIGN:$(basicozalign) -ENTRY:$(basicozentry)
+
+incs 	  = $(incs) -I$(targ) -I. -I..\INC
+
+defs 	  = $(defs) $(targdefs)
+
+aopts	  = -Cp -Cx -Zi -Zd $(targaopts)
+copts 	  = -Zl -Zp8 -Gy -cbstring -W3 -WX -GR- -GF -GL- $(targcopts)
+ 
+AS		  = $(archml).exe -nologo
+AFLAGS	  = $(aopts) $(incs) -Fo$(OBJ)\ $(defs) $(specialaflags) -Fl$(Machinelst)
+
+CC		  = cl.exe -nologo
+CFLAGS 	  = $(copts) $(incs) -Fo$(OBJ)\ $(defs) $(specialcflags)
+
+# not linked to any NT libraries
+linklibpath = 
+buildlibs   = 
+
+linkignore  = -IGNORE:4087,4001,4010,4037,4039,4065,4070,4078,4087,4089,4221,4198,4226,4108
+
+LINKFLAGS = $(linkignore) -WX -NODEFAULTLIB -machine:$(machine) -debug -debugtype:cv,fixup
+LINK	  = link.exe -nologo
+
+linkbasicoznames   = -out:$(basicoz).boz   -map:$(basicoz).map   -pdb:$(basicoz).pdb 
+
+$(basicoz).boz: $(basicozobjs)
+	$(LINK) $(LINKFLAGS) $(basicozlopts) $** $(linkbasicoznames) $(linklibpath) $(buildlibs)
+
+# assembly files
+{$(targ)\}.asm{$(OBJ)\}.obj::
+	$(AS) $(AFLAGS) -c $<
+
+# arch-specific C files
+{$(targ)\}.c{$(OBJ)\}.obj::
+	$(CC) $(CFLAGS) -c $<
+
+# C files
+.c{$(OBJ)\}.obj::
+	$(CC) $(CFLAGS) -c $<
+
+# C DEVICES files
+{DRIVERS\}.c{$(OBJ)\}.obj::
+	$(CC) $(CFLAGS) -c $<
+
+.c.i:
+	@$(CC) $(CFLAGS) -P $?
+
+
+$(basicozobjs): 	BasicOZ.h ..\INC\BasicTypes.h ..\INC\SystemLib.h ..\INC\SPACEOps.h makefile.BasicOZ
+
+# clean pseudo targets
+
+clean: clean0
+
+clean0:
+	-del $(bootobjs) $(asobjs) $(ccarchobjs) $(ccobjs) $(deviceobjs) $(extraobjs) $(Machinelst) "*~"
+
