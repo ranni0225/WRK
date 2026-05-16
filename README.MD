@@ -11,7 +11,7 @@ Create necessary directories **before** building WRK and ProjectOZ: `python3 PRE
 
 ## Build WRK
 
-1. Open `WRK-V1.2/WRK.sln` with Visual Studio 2022. Visual Studio 2026 may also work, but I haven't tested.
+1. Open `WRK-V1.2/WRK.sln` with Visual Studio 2026.
 
 2. Build solution with pre-defined "x86"(Windows Server 2003 SP1) configuration.
 
